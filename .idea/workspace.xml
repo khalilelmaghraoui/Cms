@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95969e07-d2cf-405d-a87c-3e12bafc1be9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/database/seeders/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/resources/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/webpack.mix.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/cms/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/cms/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/cms/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/cms/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/cms/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/cms/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/cms/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/cms/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/cms/vendor/composer" />
+      <path value="$PROJECT_DIR$/cms/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/cms/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/cms/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/cms/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/cms/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/cms/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/cms/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/cms/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/cms/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/cms/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/cms/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/cms/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/cms/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/cms/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/cms/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/cms/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/cms/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/cms/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/cms/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/cms/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/cms/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/cms/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/cms/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/cms/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/cms/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/cms/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/cms/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/cms/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/cms/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/cms/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/cms/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/cms/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/cms/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/cms/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/cms/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/cms/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/cms/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/cms/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/cms/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/cms/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/cms/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/cms/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/cms/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/cms/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/cms/vendor/vlucas/phpdotenv" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1ocDizo20tIOPHcpO2ntwINF6tc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95969e07-d2cf-405d-a87c-3e12bafc1be9" name="Default Changelist" comment="" />
+      <created>1613577115888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613577115888</updated>
+      <workItem from="1613577118385" duration="1450000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
