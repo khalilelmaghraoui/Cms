@@ -1,37 +1,17 @@
 <?php
 
-namespace Database\Factories;
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use
-    App\Models\Post;
-use Illuminate\Database\Eloquent\Factories\Factory;
+use App\Post;
+use Faker\Generator as Faker;
 
-class PostFactory extends Factory
-{
-    /**
-     * The name of the factory's corresponding model.
-     *
-     * @var string
-     */
-    protected $model = Post::class;
+$factory->define(Post::class, function (Faker $faker) {
+    return [
 
-    /**
-     * Define the model's default state.
-     *
-     * @return array
-     */
-    public function definition()
-    {
+        'user_id' => factory('App\User'),
+        'title' => $faker->sentence,
+        'post_image'=> $faker->imageUrl('900', '300'),
+        'body' => $faker->paragraph
 
-            return [
-                'user_id' => Post::factory('App\User'),
-                'title' => $this->faker->sentence,
-                'post_image'=>$this->faker->imageUrl('900','300'),
-                'body'=> $this->faker->paragraph
-
-                //
-            ];
-
-    }
-
-}
+    ];
+});

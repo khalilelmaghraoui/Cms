@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="{{asset('vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 
     <!-- Custom styles for this template -->
@@ -24,7 +25,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="{{route('home')}}">Home</a>
+        <a class="navbar-brand" href="{{route('home')}}">HOME</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,23 +36,34 @@
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
-                @if(\Illuminate\Support\Facades\Auth::check())
+
+                @if(Auth::check())
+
                 <li class="nav-item">
-                    <a class="nav-link" href="{{route('admin.index')}}">admin</a>
+                    <a class="nav-link" href="{{route('admin.index')}}">Admin</a>
                 </li>
+
                 @else
+
                 <li class="nav-item">
-                    <a class="nav-link" href="/login">login</a>
+                    <a class="nav-link" href="/login">Login</a>
                 </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/register">Register</a>
+                    </li>
+
                 @endif
+
+
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#"></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#"></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#"></a>
                 </li>
             </ul>
         </div>
@@ -66,7 +78,7 @@
         <!-- Blog Entries Column -->
         <div class="col-md-8">
 
-         @yield('content')
+            @yield('content')
 
         </div>
 

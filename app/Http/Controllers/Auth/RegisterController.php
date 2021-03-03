@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
-use App\Models\User;
+use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -50,12 +50,10 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
+            'username' => ['required', 'string', 'max:255', 'unique:users', 'alpha_dash'],
             'name' => ['required', 'string', 'max:255'],
-            'username' => 'required|string|max:255|unique:users',
-            'dob' => 'required|date',
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
-
         ]);
     }
 
@@ -63,23 +61,15 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \App\Models\User
+     * @return \App\User
      */
     protected function create(array $data)
     {
-        $user= User::create([
-            'name' => $data['name'],
+        return User::create([
             'username' => $data['username'],
-            'dob' => $data['dob'],
+            'name' => $data['name'],
             'email' => $data['email'],
-            'password' => Hash::make($data['password']),
+            'password' => $data['password']
         ]);
-        if(request()->hasFile('avatar')){
-            $avatar = request()->file('avatar')->getClientOriginalName();
-            request()->file('avatar')->storeAs('avatars',$user->id.'/'.$avatar,'');
-            $user->update(['avatar'=>$avatar]);
-        }
-        return $user;
-
     }
 }

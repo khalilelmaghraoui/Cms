@@ -1,4 +1,5 @@
 <x-home-master>
+
     @section('content')
         <!-- Title -->
             <h1 class="mt-4">{{$post->title}}</h1>
@@ -6,24 +7,25 @@
             <!-- Author -->
             <p class="lead">
                 by
-                <a href="#">khalil</a>
+                <a href="#">{{$post->user->name}}</a>
             </p>
 
             <hr>
 
             <!-- Date/Time -->
-            <p>Posted on January 1, 2019 at 12:00 PM</p>
+            <p>Posted on {{$post->created_at->diffForHumans()}} </p>
 
             <hr>
 
             <!-- Preview Image -->
-            <img class="img-fluid rounded" src="https://picsum.photos/seed/picsum/750/300" alt="">
+            <img class="img-fluid rounded" src="{{$post->post_image}}" alt="">
 
             <hr>
 
             <!-- Post Content -->
-           <p>{{$post->body}}</p>
+            <p>{{$post->body}}</p>
 
+            <hr>
 
             <!-- Comments Form -->
             <div class="card my-4">
@@ -72,5 +74,10 @@
 
                 </div>
             </div>
-    @endsection
+
+
+
+        @endsection
+
+
 </x-home-master>

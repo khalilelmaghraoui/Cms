@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Post;
+use App\Post;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -14,9 +14,8 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-//       $this->middleware('auth');
+//        $this->middleware('auth');
     }
-
 
     /**
      * Show the application dashboard.
@@ -25,7 +24,13 @@ class HomeController extends Controller
      */
     public function index()
     {
+
         $posts = Post::all();
-        return view('home',['posts'=>$posts]);
+
+
+        return view('home', ['posts'=> $posts]);
+
+
+
     }
 }
